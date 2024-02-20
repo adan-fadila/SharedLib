@@ -4,17 +4,12 @@ namespace SharedLibrary
 
 public class GameData
 {
-
-    public CardData[] Playe1HandCards { get; set; }
-
-    public List<CardData> Playe2HandCards { get; set; }
-    public string Playe2Id { get; set; }
-    public string Location1Name { get; set; }
-    public string Location1Desc { get; set; }
-    public string Location2Name { get; set; }
-    public string Location2Desc { get; set; }
-    public string Location3Name { get; set; }
-    public string Location3Desc { get; set; }
+    PlayerData player1{get;set;}
+   PlayerData player2{get;set;}
+   
+    public LocationData locationData1{ get; set; }
+     public LocationData locationData2{ get; set; }
+      public LocationData locationData3{ get; set; }
 
 }
 public class CardData
@@ -52,9 +47,9 @@ public class LocationData
     public string LoctaionName { get; set; }
     public string LoctaionDesc { get; set; }
     public List<CardData> PlayerZone { get; set; }
-    public int PlayerLocatinScore { get; set; }
+    public int Player1LocatinScore { get; set; }
     public List<CardData> OpponentZone { get; set; }
-     public int OpponentLocatinScore { get; set; }
+     public int Player2LocatinScore { get; set; }
 }
 
 

@@ -9,3 +9,4 @@ C:\Users\adanf\SharedLibrary\obj\Debug\net8.0\SharedLibrary.dll
 C:\Users\adanf\SharedLibrary\obj\Debug\net8.0\refint\SharedLibrary.dll
 C:\Users\adanf\SharedLibrary\obj\Debug\net8.0\SharedLibrary.pdb
 C:\Users\adanf\SharedLibrary\obj\Debug\net8.0\ref\SharedLibrary.dll
+C:\Users\adanf\SharedLibrary\obj\Debug\net8.0\SharedLibrary.sourcelink.json
